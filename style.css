@@ -598,6 +598,74 @@ body {
 
 }
 
+@media (max-width: 1500px) {
+    /* For tablets */
+    .portfolio {
+        margin: 5%; /* Adjust margins */
+    }
+
+    .portfolio-content img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        float: none; /* Remove float */
+        margin-bottom: 20px; /* Add spacing below image */
+    }
+
+    .portfolio-content-1 {
+        float: none;
+        margin: 0;
+        text-align: center; /* Center align for smaller screens */
+        max-width: 100%; /* Use full width */
+    }
+
+    .portfolio-content-1 h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .portfolio-content-1 p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .portfolio-content-skill-img ul {
+        text-align: left;
+    }
+
+    .portfolio-content-skill-img ul li img {
+        margin: 0%;
+    }
+
+    .portfolio-content-1 button {
+        width: 120px;
+        height: 35px;
+        margin-bottom: 8%;
+        font-size: small;
+        text-transform: uppercase;
+        border-radius: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+    .about h1{
+        font-weight: x-large;
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        margin: 3% 0% 5% 0%;
+    }
+    
+    .about h2{
+        font-weight: medium;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        margin: 2%;
+    }
+
+}
+
 @media (max-width: 576px) {
     /* For mobile phones */
     .portfolio h1 {
@@ -737,7 +805,7 @@ body.dark-mode li a {
     color: #f9f9f9; /* Light text for headings, paragraphs, and lists */
 }
 
-body.dark-mode .navbar {
+body.dark-mode .navbar .nav-list.fullscreen {
     background-color: #121212; /* Dark navbar background */
 }
 
