@@ -19,6 +19,7 @@ function updateGreeting() {
 window.onload = () => {
     updateGreeting();
     showDialog();
+    setInterval(showDialog, 15000);
 };
 
 // Toggle the navbar and icons when clicking on the menu icon
