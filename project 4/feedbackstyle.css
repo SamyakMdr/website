@@ -1,0 +1,44 @@
+.maincontent1{
+    float: left;
+    margin-left: 45px;
+    padding-right: 0px;
+    margin-top: 10px;
+}
+
+.latest1 h2{
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: Titillium Web;
+    border-bottom: 2px solid #cc0000;
+    width: 940px;
+}
+
+.feedback_form{
+
+}
+
+.feedback_form tr{
+	display: inline;
+	font-size: 20px;
+	margin: 40px 20px 40px 20px; 
+}
+
+.bottom1{
+	width: 950px;
+	height: 155px;
+	background-color: #cc0000;
+	margin: -10px;
+}
+
+.bottom1 p{
+	color: #ffffff;
+	font-family: Bahnschrift, Titillium Web, arial;
+	padding-top: 18px;
+}
+
+.submit{
+	font-family: Bahnschrift, Titillium Web, arial;
+
+}
