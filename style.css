@@ -600,7 +600,7 @@ footer{
     }
 
     .portfolio-content-1 button {
-        width: 520px;
+        width: 100%;
         height: 45px;
         margin-bottom: 8%;
         font-size: small;
