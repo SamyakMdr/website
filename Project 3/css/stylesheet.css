@@ -1,0 +1,41 @@
+.footer{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	float: right;
+	padding: 3px 10px 0px 0px;
+}
+
+.logo1{
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 0px 0px 20px;
+}
+
+#hyperlink1{
+}
+
+.pictuer1{
+	border-radius: 5;
+}
+
+.heatersandfans{
+}
+
+.hello{
+	margin-bottom: -10px;
+}
+
+.description h4{
+	margin-top: 20px;
+	color: #f2f2f2;
+}
+
+.description button{
+	margin-right: 10px;
+
+}

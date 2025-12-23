@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bhadakuda Nepal</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Example:1 - Multipurpose Bootstrap Template">
+    <meta name="keywords" content="bootstrap, business, consulting, coworking space, services, creative agency, dashboard, e-commerce, mobile app showcase, multipurpose, product landing, shop, software, ui kit, web studio, landing, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="Createx Studio">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/logo.jpg">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="img/logo.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="img/logo.jpg">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <!-- Page loading styles-->
+    <script type="text/javascript" link="kaspersky.js" charset="UTF-8"></script>
+    <style>
+      .cs-page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .cs-page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .cs-page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .cs-page-loading.active > .cs-page-loading-inner {
+        opacity: 1;
+      }
+      .cs-page-loading-inner > span {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #737491;
+      }
+      .cs-page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #766df4;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      
+    </style>
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.cs-page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+      
+    </script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="css/simplebar.min.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+  <!-- Body-->
+  <body>
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+    <!-- Page loading spinner-->
+    <div class="cs-page-loading active">
+      <div class="cs-page-loading-inner">
+        <div class="cs-page-spinner"></div><span>Loading Please Wait...</span>
+      </div>
+    </div>
+    <main class="cs-page-wrapper">
+      <!-- Navbar Floating light for Index page only-->
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+      <header class="cs-header navbar navbar-expand-lg navbar-dark navbar-floating navbar-sticky">
+        <div class="container px-0 px-xl-3">
+          <button class="navbar-toggler ml-n2 mr-2" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand logo order-lg-1 mx-auto ml-lg-0 pr-lg-2 mr-lg-4" href="index.html"><img class="navbar-floating-logo logo1 d-none d-lg-block" width="153" src="img/logo.jpg" alt=""/>Bhadakuda Nepal<img class="navbar-stuck-logo" width="153" src="img/logo.png" alt=""/><img class="d-lg-none" width="58" src="img/logo.png" alt=""/></a>
+          <div class="cs-offcanvas-collapse order-lg-2" id="primaryMenu">
+            <div class="cs-offcanvas-cap navbar-box-shadow">
+              <h5 class="mt-1 mb-0">Menu</h5>
+              <button class="close lead" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="cs-offcanvas-body">
+              <!-- Menu-->
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown-mega"><a class="nav-link" href="#hyperlink1">Bhadakudas!</a>
+                </li>
+                <li class="nav-item dropdown-mega"><a class="nav-link" href="#components">Components</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#minorneeds">Minor Needs</a>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link" href="#bottle">Bottles</a>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link" href="#heaterandfan">Heaters & Fan</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Page content-->
+      <!-- Intro-->
+      <section class="d-flex align-items-center position-relative bg-dark bg-size-cover bg-position-center fh-section overflow-hidden pt-6 pb-lg-5" style="background-image: url(img/bg.jpg);">
+        <div class="container-fluid pt-4 pb-5 py-lg-5">
+          <div class="row align-items-center py-3">
+            <div class="col-xl-6 col-lg-5 d-flex justify-content-end">
+              <div class="pt-2 mx-auto mb-5 mb-lg-0 ml-lg-0 mr-xl-7 text-center text-lg-left" style="max-width: 495px;">
+                <h1 class="display-4 text-light pb-2"><span class="font-weight-light">Have a look at </span>Bhadakudas!</h1>
+                <p class="h4 font-weight-light text-light opacity-70 line-height-base">And you will find everything you need to have in your Kitchen.</p><a class="d-inline-flex align-items-center text-decoration-none pt-2 mt-4 mb-5" href="#demos" data-scroll><span class="btn btn-icon rounded-circle border-light"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-down-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+</svg><i class="h4 text-light my-1"></i></span><span class="ml-3 text-light font-weight-medium">View Bhadakudas</span></a>
+                <hr class="hr-light mb-5">
+                <div class="row">
+                  <div class="col-sm-4 mb-4 mb-sm-0">
+                    <div class="h1 text-light mb-1">200+</div>
+                    <div class="h5 text-light font-weight-normal opacity-70 mb-2">Bhadakudas</div><span class="badge badge-pill badge-success">More coming</span>
+                  </div>
+                  <div class="col-sm-4 mb-4 mb-sm-0">
+                    <div class="h1 text-light mb-1">80+</div>
+                    <div class="h5 text-light font-weight-normal opacity-70 mb-1">Components</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="h1 text-light mb-1">50+</div>
+                    <div class="h5 text-light font-weight-normal opacity-70 mb-1">Minor Needs</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+              <div class="cs-parallax ml-lg-n5" style="max-width: 920px;">
+                <div class="cs-parallax-layer position-relative" data-depth="0.1"><img src="img/layer01.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" style="z-index: 2;" data-depth="0.3"><img src="img/layer02.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.2"><img src="img/layer03.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" style="z-index: 3;" data-depth="0.1"><img src="img/layer04.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.15"><img src="img/layer05.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" style="z-index: 4;" data-depth="0.25"><img src="img/layer06.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.3"><img src="img/layer07.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.4"><img src="img/layer08.png" alt="Layer"/>
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.35"><img src="img/layer09.png" alt="Layer"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Demos-->
+      <section class="bg-secondary" id="demos">
+        <div class="container pt-5 pb-4 py-md-6 py-lg-7">
+          <div class="text-center mb-5 pt-3 pt-lg-4">
+            <div><h2 class="h1 mb-4">NEW <span id="hyperlink1" class='bg-faded-primary rounded text-primary px-3 py-2'>BHADAKUDAS</h2><i class="badge badge-pill badge-warning">Just Arrived</i><br><br></span></div>
+                  
+            <p class="text-muted">Select the products which you want to have in your kitchen</p>
+          </div>
+          <div class="row article-photo">
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="pressurecooker.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/pressurecookers.png" alt="pressurecooker"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Pessure Cooker </h3><span class="font-size-sm font-weight-normal text-muted">Prestiage, Baltra, Daimond</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-shop-homepage.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/rice-cooker.png" alt="ricecooker"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Rice Cooker</h3><span class="font-size-sm font-weight-normal text-muted">Prestiage, Baltra, Daimond, Kambrook</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-booking-directory.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/non-stick-pan.png" alt="Non-Stick Pans"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Non-Stick Pans</h3><span class="font-size-sm font-weight-normal text-muted">Listings, Flights, Destinations</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-creative-agency.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/gas-stove.png" alt="Gas Stove"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Gas Stove</h3><span class="font-size-sm font-weight-normal text-muted">Prestiage, Baltra, Golden Fugix, Faber</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-web-studio.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/induction-stove.png" alt="Induction Cooker"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Induction Cooker</h3><span class="font-size-sm font-weight-normal text-muted">Prestiage, Baltra, Philips, Blak and Decker</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-product-software.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/iron.png" alt="Iron"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Iron</h3><span class="font-size-sm font-weight-normal text-muted">Baltra, Philips, Blak and Decker, Panasonic</span></a></div>
+            <div class="row article-photo">
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-business-consulting.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/water-filter.png" alt="water-filter"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Water Filter </h3><span class="font-size-sm font-weight-normal text-muted">Kenmore, Aqua King, Kent</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-shop-homepage.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/tharmal-bottel.png" alt="ricecooker"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Tharmal Bottel</h3><span class="font-size-sm font-weight-normal text-muted">Prestiage, Baltra, Daimond, Kambrook</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-booking-directory.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/vacuum-cleaner.png" alt="Vacuum Cleaner"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Vacuum Cleaner</h3><span class="font-size-sm font-weight-normal text-muted">Samsung, Yasuda, Philips, Crompton</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-creative-agency.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/clock.png" alt="Wall Clock"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Wall Clock</h3><span class="font-size-sm font-weight-normal text-muted">Quartz, Nepal, A-One, ITC</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-web-studio.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/Kettle.png" alt="Kettle"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Kettle</h3><span class="font-size-sm font-weight-normal text-muted">koryo, Baltra, Philips, Blak and Decker</span></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-product-software.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/microwave.png" alt="oven"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Oven</h3><span class="font-size-sm font-weight-normal text-muted">Samsung, LG, Philips, CG, Whirlpool</span></a></div>
+            </div>
+        </div>
+      </section>
+      <!-- Components-->
+      <section class="bg-gradient py-5 py-md-6 py-lg-7" id="components">
+        <div class="container-fluid py-3 py-lg-4 overflow-hidden">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5 d-flex justify-content-end mb-5 mb-lg-0">
+              <div class="mx-auto ml-lg-0 mr-xl-7 text-center text-lg-left" style="max-width: 495px;">
+                <h2 class="h1 text-light mb-4">Kitchen <span class='bg-faded-light rounded px-3 py-2'>Components</span></h2>
+                <p class="text-light opacity-70 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                <div class="row mb-2 mx-n2">
+                  <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-lg pt-3 pb-4 px-3 text-center text-decoration-none" href="components/carousel.html"><img class="d-inline-block mb-3" width="188" src="img/plates.png" alt="Kitchen Rack"/>
+                      <h3 class="h6 text-light mb-0">Ceramic Plates</h3><h6>(Set of 6)</h6></a></div>
+                  <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-lg pt-3 pb-4 px-3 text-center text-decoration-none" href="components/gallery.html"><img class="d-inline-block mb-3" width="156" src="img/whiskey-glass.png" alt="Image / Video Gallery"/>
+                      <h3 class="h6 text-light mb-0">Whiskey Glass</h3><h6>(Set of 6)</h6></a></div>
+                  <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-lg pt-3 pb-4 px-3 text-center text-decoration-none" href="components/charts.html"><img class="d-inline-block mb-3" width="89" src="img/wine-glass.png" alt="Line, Bar & Pie Charts"/>
+                      <h3 class="h6 text-light mb-0">Wine Glass</h3><h6>(Set of 6)</h6></a></div>
+                  <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-lg pt-3 pb-4 px-3 text-center text-decoration-none" href="components/video-popup.html"><img class="d-inline-block mb-3" width="160" src="img/beer-glass.png" alt="Video Popup & Embed"/>
+                      <h3 class="h6 text-light mb-0">Beer Glass</h3><h6>(Set of 6)</h6></a></div>
+                  </div><a class="btn btn-success" href="components/typography.html">View All Components</a>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-7 d-flex justify-content-end pr-0"><a class="d-block mr-n3" href="components/hotspots.html"><img class="d-block" src="img/macbook.png" alt="Components"/></a></div>
+          </div>
+        </div>
+      </section>
+      <!-- Inner Pages-->
+      <section class="py-5 py-md-6 py-lg-7" id="minorneeds">
+        <div class="container pb-3 pt-4 pb-lg-2">
+          <div class="row justify-content-center mb-4 pb-2">
+            <div class="col-xl-6 col-lg-7 col-md-8">
+              <h2 class="h1 mb-4 text-center">Minnor <span class='bg-faded-primary rounded text-primary px-3 py-2'>Needs</span></h2>
+              <p class="text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+          </div>
+          <div class="row article-photo">
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-business-consulting.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/lemon-squeezer.png" alt="Lemon Squeezer"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Lemon Squeezer</h3></a></div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-shop-homepage.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/tea-strainer.png" alt="Tea Strainer"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Tea Strainer</h3></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-booking-directory.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/knife-set.png" alt="Knife Set"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Knife Set</h3></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-creative-agency.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/cheese-grater.png" alt="Cheese Grater"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Cheese Grater</h3></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-web-studio.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/bottle-opener.png" alt="Bottle Opener"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Bottle Opener</h3></a></div>
+            <div class="col-lg-4 col-sm-6 mb-grid-gutter pb-3"><a class="d-block nav-heading text-center" href="demo-product-software.html">
+                <div class="card card-hover border-0 box-shadow-lg mb-4"><img class="card-img" src="img/potato-peeler.png" alt="Potato Peeler"/>
+                </div>
+                <h3 class="h5 nav-heading-title mb-0">Potato Peeler</h3></a></div>
+            </div>
+        </div>
+        </div>
+      </section>
+      <!-- Mobile Interface-->
+      <section class="bg-secondary py-5 py-md-6 py-lg-7" id="bottle">
+        <div class="container py-3 py-lg-4">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0">
+              <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block picture1" src="img/water-bottle.jpg" alt="Mobile screens"/>
+              </div>
+            </div>
+            <div class="col-md-6 text-center text-md-left">
+              <h2 class="h1 mb-4"><span class='bg-faded-primary rounded text-primary px-3 py-2'>Water</span> Bottles</h2>
+              <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure do.</p>
+              <a class="btn btn-success" href="components/typography.html">View All Components >></a>
+              
+              </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <!-- Features-->
+      <section  class="heatersandfans" id="heaterandfan">
+        <div align="center"><h2 class="h1 mb-4">NEW <span id="hyperlink1" class="bg-faded-primary rounded text-primary px-3 py-2 hello">Heater & Fans</h2></span></div>
+        <div class="bg-gray-100 position-relative">
+          <div class="py-6 container">
+            <div class="row">
+              <div class="mb-5 mb-sm-0 col-sm-6">
+                <div class="card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center card">
+                  <img src="img/electric-room-heater.jpg" alt="Women" class="img-scale card-img">
+                  <div class="d-flex align-items-center card-img-overlay"><div class="w-100 py-3"><h2 class="display-3 font-weight-bold mb-0" style="color: white;">Heater</h2><a class="stretched-link" href="/category-full"><span class="sr-only">See</span></a></div></div>
+                </div>
+              </div>
+              <div class="mb-5 mb-sm-0 col-sm-6">
+                <div class="card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center card"><img src="img/Electric-Stand-Fan.jpg" alt="Men" class="img-scale card-img">
+                  <div class="d-flex align-items-center card-img-overlay">
+                  <div class="w-100 py-3"><h2 class="display-3 font-weight-bold mb-0" style="color: white;">Fan</h2><a class="stretched-link" href="/category-full"><span class="sr-only">See</span></a>
+                  </div>
+                 </div>
+                </div>
+            </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </section>
+    </main>
+    <footer class="cs-footer bg-dark pt-0 pt-md-0 pt-lg-0">
+      <div class="container pt-3 pt-md-0">
+        <p class="font-size-sm text-center mb-4 py-3"><span class="text-light opacity-50 mr-1">© All rights reserved. Made by</span><a class="nav-link-style nav-link-light" href="https://createx.studio/" target="_blank" rel="noopener">Cube Studio</a></p>
+      </div>
+    </footer>
+    <!-- Back to top button--><a class="btn-scroll-top glyphicon glyphicon-hand-up" href="#top" data-scroll><span class="btn-scroll-top-tooltip glyphicon glyphicon-hand-up text-muted font-size-sm mr-2">Top</span><i class="btn-scroll-top-icon"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-up-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+</svg></i></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bs-custom-file-input.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+  </body>
+</html>
